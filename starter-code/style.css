@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
 }
 
+/* banner section */
 .header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -33,6 +34,8 @@ body {
 .mobile {
     display: none;
 }
+
+/* mobile design for the banner section */
 @media (max-width: 576px){
     .header {
         display: block;
@@ -66,3 +69,169 @@ body {
     }
 
 }
+
+
+/* the middle section */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 1 / 4 / 6; }
+    .div2 { grid-area: 1 / 4 / 3 / 6; }
+    .div3 { grid-area: 1 / 2 / 2 / 4; }
+    /* .div1 { grid-area: 4 / 1 / 6 / 6; }
+    .div2 { grid-area: 2 / 4 / 5 / 6; }
+    .div3 { grid-area: 3 / 2 / 4 / 4; } */
+
+    .div1 {
+        background-color: #111111;
+        color: white;
+        padding: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .salmon {
+        display: flex;
+        align-items: center;
+        /* margin: 5px; */
+    }
+
+    .rosemary{
+        display: flex;
+        align-items: center;
+    }
+
+    .chocolate{
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-only h2 {
+        font-size: 40px;
+    }
+
+    .text-only  {
+        margin-top: 333px;
+    }
+
+    .text-images{
+        margin-top: 333px;
+    }
+
+    @media (max-width: 576px){
+        .parent {
+            display: block;
+        }
+
+        /*  */
+        .salmon {
+            display: block;
+            align-items: center;
+            position: absolute;
+            width: 327px;
+            /* height: 683px; */
+            left: 24px;
+        }
+
+        .rosemary{
+            display: block;
+            align-items: center;
+            position: relative;
+            top: 221px;
+            right: -24px;
+        }
+
+        .rosemary img {
+            width: 327px;
+        }
+
+        .text2{
+            text-align: center;
+            position: relative;
+            top: 23px;
+        }
+
+        .chocolate{
+            position: relative;
+            top: 250px;
+            display: block;
+        }
+
+        .chocolate img {
+            width: 327px;
+            position: relative;
+            left: 23px;
+        }
+
+        .text3 {
+            text-align: center;
+            position: relative;
+            left: 22px;
+            top: 10px;
+        }
+
+        .div3 {
+            text-align: center;
+        }
+
+
+
+
+
+        
+    
+        
+
+        .text-only h2 {
+            position: relative;
+            top: -403px;
+            width: 100vw;
+            left: -152px;
+            text-align: center;
+        }
+
+        .text-only p {
+            position: relative;
+            top: -403px;
+            width: 100vw;
+            left: -152px;
+            text-align: center;
+        }
+
+        .salmon img{
+            position: relative;
+            width: 327px;
+            top: -185px;
+        }
+
+        .text1 {
+            text-align: center;
+            position: relative;
+            top: -155px;
+        }
+
+        .div1 {
+            height: 1600px;
+        }
+
+
+        .text-only{
+            position: relative;
+            left: -1px;
+            width: 225px;
+        }
+        
+        .text-images {
+            position: relative;
+            left: -375px;
+        }
+
+
+    }
+
+  
