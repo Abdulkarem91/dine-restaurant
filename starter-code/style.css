@@ -185,6 +185,7 @@ body {
             width: 100vw;
             left: -152px;
             text-align: center;
+            font-size: 36px;
         }
 
         .text-only p {
@@ -193,6 +194,7 @@ body {
             width: 100vw;
             left: -152px;
             text-align: center;
+            font-size: 15px;
         }
 
         .salmon img{

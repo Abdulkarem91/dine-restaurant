@@ -67,5 +67,13 @@ body {
         text-align: center;
     }
 
+   .logo{
+    position: relative;
+    top: -566px;
+    left: 20px;
+    width: 327px;
+
+   }
+
 }
 
