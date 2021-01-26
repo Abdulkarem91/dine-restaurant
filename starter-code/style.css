@@ -247,7 +247,37 @@ footer {
        background-image: url(./images/homepage/ready-bg-mobile.jpg); background-repeat: no-repeat; background-size: cover;
    }
 
-   .div3 h2 {
-       font-size: 40px;
-   } 
+   /* .div3 h2 {
+       font-size: 40px !important;
+       margin-top: -10px !important;
+
+   }  */
+
+   .family-text {
+       margin-top: 30px !important;
+   }
+
+   /* .div3{
+   } */
 }
+
+@media (max-width: 992px){
+    .div3 {
+        margin-top: 160px !important;
+    } 
+
+}
+
+@media (max-width: 576px){
+    .div3 h2 {
+        margin-top: -144px !important;
+ 
+    } 
+
+    .div1 {
+        margin-top: -200px;
+    }
+
+}
+
+

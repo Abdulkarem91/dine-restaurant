@@ -72,7 +72,13 @@ body {
     top: -566px;
    
    }
+
+   .needs-validation {
+       margin-top: -11.5rem !important;
+   }
 }
+
+
 
 
    
