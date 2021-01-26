@@ -179,14 +179,6 @@ body {
             text-align: center;
         }
 
-
-
-
-
-        
-    
-        
-
         .text-only h2 {
             position: relative;
             top: -403px;
@@ -234,4 +226,22 @@ body {
 
     }
 
-  
+   
+
+  .family-text h3 {
+      font-size: 40px;
+  }
+
+  .family-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer {
+    background-image:url(./images/homepage/ready-bg-desktop.jpg); background-repeat: no-repeat; background-size: cover;
+}
+@media (max-width: 576px){
+   footer {
+       background-image: url(./images/homepage/ready-bg-mobile.jpg); background-repeat: no-repeat; background-size: cover;
+   }
+}
